@@ -4,10 +4,220 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panda commerce</title>
+    <title>Panda e-commerce</title>
+    <link rel="shortcut icon" href="images/panda-logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> 
+                  <img src="images/logo.png">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#shoes">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#backpack">Backpack</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide orange-bg" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-7">
+                    <h1>Best headphones 2022</h1>
+                    <p>The Sony WH-1000XM4 headphones deliver excellent noise-cancellation and sound quality in a design that we found both comfortable and lightweight when we tested them.</p>
+                    <h1 class="price">$550</h1>
+                    <button class="buy-now-button">Buy now</button>
+                  </div>
+                  <div class="col-md-5">
+                    <img src="images/headphone.png" class="d-block w-100" alt="...">
+                  </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-7">
+                    <h1>XBOX in latest version </h1>
+                    <p>Most of the best XBOX for vidro games. You should buy for your child</p>
+                    <h1 class="price">$450</h1>
+                    <button class="buy-now-button">Buy now</button>
+                  </div>
+                    <div class="col-md-5">
+                      <img src="images/xbox.png" class="d-block w-100" alt="...">
+                </div>
+                 </div>
+                
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-7">
+                    <h1>Mi LED TV pro</h1>
+                    <p>This is the best propuler TV in 2022. If anybody waste time in front of TV then he should buy it must! <br> Also you'll be able to use prandrive and memory card.</p>
+                    <h1 class="price">$1200</h1>
+                    <button class="buy-now-button">Buy now</button>
+                  </div>
+                   <div class="col-md-5">
+                    <img src="images/tv.png" class="d-block w-100" alt="...">
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="container categories">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="d-flex justify-content-between align-items-center cat1">
+            <h1>Wath</h1>
+          <img src="images/watch.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex justify-content-between align-items-center cat2">
+            <h1>Shoes</h1>
+          <img src="images/shoes.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex justify-content-between align-items-center cat3">
+            <h1>Back</h1>
+          <img src="images/bag.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="container shoes" id="shoes">
+  <h3>Shoes</h3>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/shoe-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Supply 350</h5>
+          <p class="card-text">Quality shoes aren’t cheap—craftsmanship never is. But rest assured, many of these menswear brands have been making footwear for decades, and some even longer.</p>
+          <h5>$350</h5>
+          <button class="buy-now-button">Buy now >></button>
+        </div>
+        
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/shoe-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nike 360</h5>
+          <p class="card-text">The 1000 Mile is a classic for a reason—and that’s because every many looks great in them, whether in the city or in the country. The Old Rip Van Winkle collaboration sources part of its heel.</p>
+          <h5>$460</h5>
+          <button class="buy-now-button">Buy now >></button>
+        </div>
+       
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/shoe-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Red Airmax</h5>
+          <p class="card-text">Long live boots with history, and the Iron Ranger has it in spades. Originally built for miners in the 1930s, its rebirth as a menswear staple is ongoing and spans seasons and years.</p>
+          <h5>$250</h5>
+          <button class="buy-now-button">Buy now >></button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container backpack" id="backpack">
+  <h5>Backpack</h5>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/bag-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Red Bag</h5>
+          <h5>$420</h5>
+          <p class="card-text">Backpacks became my go-to item when I started working in an office. Simply put, I found it to be the best way to carry all my daily essentials.</p>
+          
+        </div>
+        <div class="card-footer">
+          <button class="buy-now-button">Buy now >></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/bag-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Blue Bag</h5>
+          <h5>$369</h5>
+          <p class="card-text">Although the word backpack still reminds me of middle school, modern-day styles are anything but childish.</p>
+         
+        </div>
+        <div class="card-footer">
+          <button class="buy-now-button">Buy now >></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/bag-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Black Bag</h5>
+          <h5>$250</h5>
+          <p class="card-text">A good everyday backpack should fit what you need, come with built-in organization, and shouldn't strain your shoulders and back.</p>
+         
+        </div>
+        <div class="card-footer">
+          <button class="buy-now-button">Buy now >></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container d-flex align-items-center justify-content-center orange-bg" id="subscribe">
+  <div>
+    <h3>LET'S ISTAY IN TOUCH</h3>
+    <h6>Get updates on sales, specials and more</h6>
+    <input class="form-control" type="text">
+    <button class="buy-now-button">SUBSCRIBE</button>
+  </div>
+</div>
+<footer>
+  <small>©2022. Panda Commerce. All rights reserved. Ahsan Abir, Bangladesh</small>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
